@@ -69,29 +69,108 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.container .container__description .container__sections .container__skill {
+.container .container__description .container__sections .container__reaction {
   padding: 10px 5px;
   display: flex;
   border-radius: 8px;
+  background-color: #fff6f5;
 }
-.container .container__description .container__sections .container__skill .container__name {
+.container .container__description .container__sections .container__reaction .container__name {
   width: 70%;
   display: flex;
   align-items: center;
 }
-.container .container__description .container__sections .container__skill .container__name img {
+.container .container__description .container__sections .container__reaction .container__name img {
   width: 30px;
   height: 30px;
 }
-.container .container__description .container__sections .container__skill .container__name p {
+.container .container__description .container__sections .container__reaction .container__name p {
   font-size: 20px;
   padding: 0 8px;
 }
-.container .container__description .container__sections .container__skill .container__value {
+.container .container__description .container__sections .container__reaction .container__value {
   font-size: 20px;
   font-family: "Lato", sans-serif;
 }
-.container .container__description .container__sections .container__skill .container__value .total__value {
+.container .container__description .container__sections .container__reaction .container__value .total__value {
+  color: #a39ea5;
+}
+.container .container__description .container__sections .container__memory {
+  padding: 10px 5px;
+  display: flex;
+  border-radius: 8px;
+  background-color: #fffbf2;
+}
+.container .container__description .container__sections .container__memory .container__name {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.container .container__description .container__sections .container__memory .container__name img {
+  width: 30px;
+  height: 30px;
+}
+.container .container__description .container__sections .container__memory .container__name p {
+  font-size: 20px;
+  padding: 0 8px;
+}
+.container .container__description .container__sections .container__memory .container__value {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.container .container__description .container__sections .container__memory .container__value .total__value {
+  color: #a39ea5;
+}
+.container .container__description .container__sections .container__verbal {
+  padding: 10px 5px;
+  display: flex;
+  border-radius: 8px;
+  background-color: #f1fbfa;
+}
+.container .container__description .container__sections .container__verbal .container__name {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.container .container__description .container__sections .container__verbal .container__name img {
+  width: 30px;
+  height: 30px;
+}
+.container .container__description .container__sections .container__verbal .container__name p {
+  font-size: 20px;
+  padding: 0 8px;
+}
+.container .container__description .container__sections .container__verbal .container__value {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.container .container__description .container__sections .container__verbal .container__value .total__value {
+  color: #a39ea5;
+}
+.container .container__description .container__sections .container__visual {
+  padding: 10px 5px;
+  display: flex;
+  border-radius: 8px;
+  background-color: #f3f3fd;
+}
+.container .container__description .container__sections .container__visual .container__name {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.container .container__description .container__sections .container__visual .container__name img {
+  width: 30px;
+  height: 30px;
+}
+.container .container__description .container__sections .container__visual .container__name p {
+  font-size: 20px;
+  padding: 0 8px;
+}
+.container .container__description .container__sections .container__visual .container__value {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+.container .container__description .container__sections .container__visual .container__value .total__value {
   color: #a39ea5;
 }
 .container .container__description button {
@@ -102,6 +181,7 @@
   color: white;
   background-color: #303b59;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

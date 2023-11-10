@@ -70,20 +70,14 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            .container__skill {
-                padding: 10px 5px;
-                // border: 1px solid purple;
-                display: flex;
-                border-radius: 8px;
+            .container__reaction {
+                @include container__skill;
+                background-color: #fff6f5;
                 .container__name {
-                    // border: 1px solid green;
-                    width: 70%;
-                    display: flex;
-                    align-items: center;
+                    @include container__name;
                     img {
-                        // border: 1px solid red;
                         width: 30px;
-                        height: 30px;
+                        height: 30px
                     }
                     p {
                         font-size: 20px;
@@ -91,9 +85,70 @@
                     }
                 }
                 .container__value {
-                    // border: 1px solid purple;
-                    font-size: 20px;
-                    font-family: $secondary-font;
+                    @include container__value;
+                    .total__value {
+                        color: #a39ea5;
+                    }
+                }
+            }
+            .container__memory {
+                @include container__skill;
+                background-color: #fffbf2;
+                .container__name {
+                    @include container__name;
+                    img {
+                        width: 30px;
+                        height: 30px
+                    }
+                    p {
+                        font-size: 20px;
+                        padding: 0 8px;
+                    }
+                }
+                .container__value {
+                    @include container__value;
+                    .total__value {
+                        color: #a39ea5;
+                    }
+                }
+            }
+            .container__verbal {
+                @include container__skill;
+                background-color: #f1fbfa;
+                .container__name {
+                    @include container__name;
+                    img {
+                        width: 30px;
+                        height: 30px
+                    }
+                    p {
+                        font-size: 20px;
+                        padding: 0 8px;
+                    }
+                }
+                .container__value {
+                    @include container__value;
+                    .total__value {
+                        color: #a39ea5;
+                    }
+                }
+            }
+            .container__visual {
+                @include container__skill;
+                background-color: #f3f3fd;
+                .container__name {
+                    @include container__name;
+                    img {
+                        width: 30px;
+                        height: 30px
+                    }
+                    p {
+                        font-size: 20px;
+                        padding: 0 8px;
+                    }
+                }
+                .container__value {
+                    @include container__value;
                     .total__value {
                         color: #a39ea5;
                     }
@@ -109,6 +164,7 @@
             color: white;
             background-color: #303b59;
             border-radius: 40px;
+            cursor: pointer;
         }
     }
 }

@@ -1,0 +1,16 @@
+@mixin container__skill {
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 8px;
+}
+
+@mixin container__name {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+@mixin container__value {
+    font-size: 20px;
+    font-family: $secondary-font;
+}
